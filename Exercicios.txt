@@ -1,0 +1,29 @@
+        static void Main(string[] args) 
+        { 
+            // int i = 1;            
+ 
+            // while (i <= 10) 
+            
+            // {
+ 
+            //     Console.WriteLine(i);
+                
+            //     // A linha abaixo significa o valor de i + 1
+            //     i++;
+            //}
+        int i = 10;            
+ 
+            while (i >= 1) 
+            
+            {
+ 
+                Console.WriteLine(i);
+                
+                // A linha abaixo significa o valor de i - 1
+                i--;
+            }     
+           
+    
+        }
+    }
+}
