@@ -185,3 +185,16 @@ git remote add origin https://github.com/Emersonsalves/Exercicios.git
 
 git push -u origin master
 
+### Programa CSC do .Net Framework para compilar o programa no VS code
+1. Localizar o caminho onde o csc.exe está localizado no windows
+2. Geralmente o caminho é: C:\Windows\Microsoft.NET\Framework64\v4.0.30319 (versão mais atual no momento)
+3. copiar o caminho e abrir "Variáveis de Ambiente do Sistema" no windows (só digitar Variáveis de Ambiente na lupa
+4. Na janela clicar em Variáveis de Ambiente, em seguida localizar a linha PATH e clicar em editar
+5. colar o caminho no novo Path e dar ok em todas as janelas
+6. É necessário reiniciar o computador
+7. No prompt de comando digitar csc e dar enter, será exibida uma mensagem da Microsoft
+8. Para compilar o programa.cs no VS code digitar "csc nomedoprograma.cs"
+9. se tudo estiver correto será criado o execultavel do programa.cs
+
+
+
